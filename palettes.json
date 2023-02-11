@@ -1,0 +1,26 @@
+{
+	"palettes": [
+		{
+			"name": "Color Palette 1",
+			"tag": "red, blue, pink, yellow, purple, orange",
+			"color1": "#F06D23",
+			"color2": "#833660",
+			"color3": "#EC3F2E",
+			"color4": "#FBB317",
+			"color5": "#0B325B",
+			"color6": "#F48FAF"
+		},
+
+		{
+			"name": "Color Palette 2",
+			"tag": "yellow, black, pink, white, purple, orange",
+			"color1": "#E9FC88",
+			"color2": "#EDB4F8",
+			"color3": "#FFFEEC",
+			"color4": "#BCB4FF",
+			"color5": "#FFB985",
+			"color6": "#141414"
+		}
+		
+	]
+}
