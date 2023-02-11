@@ -3,12 +3,12 @@
 		{
 			"name": "Color Palette 1",
 			"tag": "red, blue, pink, yellow, purple, orange",
-			"color1": "#F06D23",
-			"color2": "#833660",
-			"color3": "#EC3F2E",
-			"color4": "#FBB317",
-			"color5": "#0B325B",
-			"color6": "#F48FAF"
+			"color1": "#6432C9",
+			"color2": "#FF6434",
+			"color3": "#A06E29",
+			"color4": "#E1CDFF",
+			"color5": "#F7C892",
+			"color6": "#E8E1D1"
 		},
 
 		{
@@ -20,6 +20,39 @@
 			"color4": "#BCB4FF",
 			"color5": "#FFB985",
 			"color6": "#141414"
+		},
+
+		{
+			"name": "Color Palette 3",
+			"tag": "yellow, black, pink, white, purple, orange",
+			"color1": "#D7C7E2",
+			"color2": "#4F72B6",
+			"color3": "#E6A000",
+			"color4": "#084639",
+			"color5": "#FC703F",
+			"color6": "#F3F0EB"
+		},
+		
+		{
+			"name": "Color Palette 4",
+			"tag": "yellow, black, pink, white, purple, orange",
+			"color1": "#F4E1C3",
+			"color2": "#883D13",
+			"color3": "#F4CED9",
+			"color4": "#F26B2B",
+			"color5": "#4F565C",
+			"color6": "#F06880"
+		},
+
+		{
+			"name": "Color Palette 5",
+			"tag": "yellow, black, pink, white, purple, orange",
+			"color1": "#E6DB31",
+			"color2": "#CEE74B",
+			"color3": "#FFF3E5",
+			"color4": "#FFBED6",
+			"color5": "#F7A209",
+			"color6": "#F75918"
 		}
 		
 	]
