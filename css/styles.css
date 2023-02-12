@@ -40,6 +40,8 @@ h2 {
     flex: 0 0 33.333333%;
     padding: 0;
     cursor: pointer;
+    overflow: hidden;
+    position: relative;
 }
 
 .palette-color span {
@@ -50,12 +52,13 @@ h2 {
     border-radius: 0 0 5px 0;
     font-size: 18px;
     font-weight: 600;
-    opacity: 0;
-    transition: opacity .25s;
+    transition: all .25s;
+    position: absolute;
+    left: -200px;
 }
 
 .palette-color:hover span {
-    opacity: 1;
+    left: 0%;
 }
 
 .palette-color img {
