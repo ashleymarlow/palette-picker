@@ -11,11 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img id="logo" src="img/palette-picker-logo.png" alt="Logo" class="d-inline-block align-text-top">
             </a>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Filter
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Monochromatic</a></li>
+                  <li><a class="dropdown-item" href="#">Secondary</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     
