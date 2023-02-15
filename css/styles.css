@@ -22,6 +22,10 @@ h2 {
     filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
 }
 
+.navbar .container-fluid {
+    padding: 0px 25px;
+}
+
 .presentation {
     margin: 100px 0 75px 0;
 }
@@ -95,7 +99,13 @@ button.btn.btn-outline-primary {
     background-color: #f0f0f0;
 }
 
+.dropdown-menu li {
+    cursor: pointer;
+}
 
+.hidden {
+    display: none !important;
+}
 
 
 

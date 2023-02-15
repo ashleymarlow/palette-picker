@@ -16,15 +16,19 @@
             <a class="navbar-brand" href="#">
                 <img id="logo" src="img/palette-picker-logo.png" alt="Logo" class="d-inline-block align-text-top">
             </a>
-            <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Filter
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Monochromatic</a></li>
-                  <li><a class="dropdown-item" href="#">Secondary</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle btn-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Filter
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item filter-trigger active" data-filter="all">All</a></li>
+                <li><a class="dropdown-item filter-trigger" data-filter="modern">Modern</a></li>
+                <li><a class="dropdown-item filter-trigger" data-filter="split-complimentary">Split-Complimentary</a></li>
+                <li><a class="dropdown-item filter-trigger" data-filter="tertiary">Tertiary</a></li>
+                <li><a class="dropdown-item filter-trigger" data-filter="analogous">Analogous</a></li>
+                <li><a class="dropdown-item filter-trigger" data-filter="monochromatic">Monochromatic</a></li>
+                <li><a class="dropdown-item filter-trigger" data-filter="retro">Retro</a></li>
+              </ul>
             </div>
         </div>
     </nav>

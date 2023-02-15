@@ -1,6 +1,3 @@
-
-
-
 const palettesJson = "../palettes.json";
 
 function loadPalettes() {
@@ -18,6 +15,7 @@ function setupPalettes(data) {
     let palettehtml = '';
     for (let palette of palettesArray) {
         // let name = palette.name;
+        let tags = palette.tag
         let tagArray = palette.tag.split(",");
         let tagHTML = "";
         let color1 = palette.color1;
@@ -35,7 +33,7 @@ function setupPalettes(data) {
 
 
         palettehtml += `
-            <div class="palette">
+            <div class="palette" data-tags="` + tags + `">
                 <div class="row header-row text-end"><div class="col">` + tagHTML + `</div></div>
                 <div class="row palette-row">
                     <div class="palette-color" data-color="` + color1 + `" style="background-color:` + color1 + `";><span>` + color1 + `<img class="copy-icon" src="img/copy.svg"></span></div>
@@ -65,9 +63,36 @@ function setupPalettes(data) {
             }, 1000);
         });
     });
-
-    //enable tooltips
-    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 }
 
+
+function paletteFilter() {
+    let filterTriggersArray = document.querySelectorAll(".filter-trigger");
+    filterTriggersArray.forEach(function(filter) {
+        filter.addEventListener("click", function(element) {
+            // filter state changes
+            filterTriggersArray.forEach(function(filter) {
+                filter.classList.remove("active");
+            })
+            element.target.classList.add("active");
+
+            // hide show palettes based on filter 
+            let palettesTagArray = document.querySelectorAll(".palette");
+            palettesTagArray.forEach(function(palette) {
+                let paletteTags = palette.dataset.tags.split(",");
+                let clickedTag = element.target.dataset.filter;
+
+                palette.classList.remove("hidden");
+                if (clickedTag != "all") {
+                    if (!paletteTags.includes(clickedTag)) {
+                        palette.classList.add("hidden");
+                    }
+                }
+                
+                
+            });
+        })
+
+    });   
+}
+paletteFilter();

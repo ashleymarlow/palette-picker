@@ -2,7 +2,7 @@
 	"palettes": [
 		{
 			"name": "Color Palette 1",
-			"tag": "modern, tertiary",
+			"tag": "modern,tertiary",
 			"color1": "#6432C9",
 			"color2": "#FF6434",
 			"color3": "#A06E29",
@@ -13,7 +13,7 @@
 
 		{
 			"name": "Color Palette 2",
-			"tag": "modern, analogous",
+			"tag": "modern,analogous",
 			"color1": "#E9FC88",
 			"color2": "#EDB4F8",
 			"color3": "#FFFEEC",
@@ -24,7 +24,7 @@
 
 		{
 			"name": "Color Palette 3",
-			"tag": "modern, split-complimentary",
+			"tag": "modern,split-complimentary",
 			"color1": "#D7C7E2",
 			"color2": "#4F72B6",
 			"color3": "#E6A000",
@@ -35,7 +35,7 @@
 		
 		{
 			"name": "Color Palette 4",
-			"tag": "retro, analogous",
+			"tag": "retro,analogous",
 			"color1": "#F4E1C3",
 			"color2": "#883D13",
 			"color3": "#F4CED9",
@@ -46,7 +46,7 @@
 
 		{
 			"name": "Color Palette 5",
-			"tag": "retro, analogous",
+			"tag": "retro,analogous",
 			"color1": "#E6DB31",
 			"color2": "#CEE74B",
 			"color3": "#FFF3E5",
