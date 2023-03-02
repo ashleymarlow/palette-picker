@@ -27,14 +27,14 @@ function setupPalettes(data) {
 
         tagArray.forEach(function(tag){
             tagHTML += `
-            <button type="button" class="btn btn-outline-primary">` + tag + `</button>
+            <button type="button" class="btn btn-outline-primary tag-btn">` + tag + `</button>
             `;
         });
 
 
         palettehtml += `
             <div class="palette" data-tags="` + tags + `">
-                <div class="row header-row text-end"><div class="col">` + tagHTML + `</div></div>
+                <div class="row header-row text-end"><div class="col"><span class="tag-label">Tags:</span>` + tagHTML + `</div></div>
                 <div class="row palette-row">
                     <div class="palette-color" data-color="` + color1 + `" style="background-color:` + color1 + `";><span>` + color1 + `<img class="copy-icon" src="img/copy.svg"></span></div>
                     <div class="palette-color" data-color="` + color2 + `" style="background-color:` + color2 + `";><span>` + color2 + `<img class="copy-icon" src="img/copy.svg"></span></div>
