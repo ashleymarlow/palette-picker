@@ -96,3 +96,27 @@ function paletteFilter() {
     });   
 }
 paletteFilter();
+
+
+
+
+// TOOLTIPS
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+
+
+// DARK MODE
+const darkModeCheckbox = document.getElementById("darkModeCheckbox");
+darkModeCheckbox.addEventListener("click", function(element) {
+    if (darkModeCheckbox.checked) {
+        document.body.classList.add("darkMode");
+    } else {
+        document.body.classList.remove("darkMode");
+    }
+
+})
+
+

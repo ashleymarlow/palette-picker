@@ -22,6 +22,10 @@ h2 {
     filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
 }
 
+.navbar-brand {
+    flex-grow: 1;
+}
+
 .navbar .container-fluid {
     padding: 0px 25px;
 }
@@ -107,6 +111,10 @@ button.btn.btn-outline-primary.tag-btn {
     cursor: pointer;
 }
 
+.dropdown {
+    margin-right: 20px;
+}
+
 .hidden {
     display: none !important;
 }
@@ -156,8 +164,29 @@ footer p {
     font-size: 14px;
 }
 
+.form-switch .form-check-input {
+    width: 60px;
+    height: 30px;
+}
+
+.form-check-input:checked {
+    background-color: #e0e0e0;
+    border: none;
+}
 
 
+
+
+/* DARK MODE */
+
+.darkMode {
+    background-color: #141414;
+
+}
+
+.darkMode .navbar {
+    background-color: #000000;
+}
 
 
 
