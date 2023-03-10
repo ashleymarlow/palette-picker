@@ -15,6 +15,13 @@ h2 {
 #logo {
     width: 300px;
     padding-right: 50px;
+    display: inline-block;
+}
+
+#darkModeLogo {
+    display: none;
+    width: 300px;
+    padding-right: 50px;
 }
 
 .navbar {
@@ -115,6 +122,15 @@ button.btn.btn-outline-primary.tag-btn {
     margin-right: 20px;
 }
 
+.dropdown-item.active{
+    background: linear-gradient(45deg, blue, indigo, violet);
+}
+
+::selection {
+    color: #fff;
+    background-color: #a61db8;
+}
+
 .hidden {
     display: none !important;
 }
@@ -164,6 +180,14 @@ footer p {
     font-size: 14px;
 }
 
+#footerLogo {
+    display: inline-block;
+}
+
+#darkModeFooterLogo {
+    display: none;
+}
+
 .form-switch .form-check-input {
     width: 60px;
     height: 30px;
@@ -177,16 +201,66 @@ footer p {
 
 
 
+
 /* DARK MODE */
 
 .darkMode {
-    background-color: #141414;
+    background-color: #1d1d1d;
 
 }
 
 .darkMode .navbar {
-    background-color: #000000;
+    background-color: #131313;
 }
 
+.darkMode h1 {
+    color: #f3f3f3;
+}
 
+.darkMode p {
+    color: #f3f3f3;
+}
+
+.darkMode footer {
+    background-color: #131313;
+}
+
+.darkMode #logo {
+    width: 300px;
+    padding-right: 50px;
+    display: none;
+}
+
+.darkMode #darkModeLogo {
+    display: inline-block;
+    width: 300px;
+    padding-right: 50px;
+}
+
+.darkMode #footerLogo {
+    display: none;
+}
+
+.darkMode #darkModeFooterLogo {
+    display: inline-block;
+}
+
+.darkMode .tag-label {
+    color: #f3f3f3;
+}
+
+.darkMode button.btn.btn-outline-primary.tag-btn {
+    background-color: #444444;
+    color: #fff;
+}
+
+.darkMode .btn {
+    background-color: #444444;
+    color: #fff;
+}
+
+.darkMode .form-check-input {
+    background-color: #7a7979;
+    border: none;
+}
 
