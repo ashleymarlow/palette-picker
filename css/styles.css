@@ -233,12 +233,6 @@ footer p {
     display: none;
 }
 
-.darkMode #darkModeLogo {
-    display: inline-block;
-    width: 300px;
-    padding-right: 50px;
-}
-
 .darkMode #footerLogo {
     display: none;
 }
@@ -272,6 +266,7 @@ footer p {
     h1 {
         font-size: 60px;
     }
+    
 
 }
 
@@ -291,6 +286,13 @@ footer p {
     #mobileLogo {
         display: none;
     }
+
+    .darkMode #darkModeLogo {
+        display: inline-block;
+        width: 300px;
+        padding-right: 50px;
+    }
+    
 
 }
 
